@@ -1,0 +1,5 @@
+1. ¿Qué hace esta ruta?
+Esta ruta crea un endpoint utilizando el método HTTP POST en la dirección '/reporte'. Está diseñada para recibir información enviada por el usuario en formato JSON a través del cuerpo de la solicitud (req.body.mensaje) y responde confirmando que el reporte fue recibido con éxito, devolviendo el mismo mensaje en un objeto JSON.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+En un entorno comunitario, esta ruta POST sería indispensable para que los vecinos o usuarios puedan enviar alertas en tiempo real, registrar reportes de fallas en servicios públicos, reportar emergencias de seguridad o enviar propuestas y quejas directamente al sistema central desde un formulario web o aplicación móvil, asegurando que la información quede registrada formalmente en el servidor.
