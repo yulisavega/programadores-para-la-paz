@@ -1,0 +1,9 @@
+Al enviar una petición de tipo POST a la dirección http://localhost:3000/registro utilizando las herramientas de prueba (como Postman o Thunder Client) con un cuerpo en formato JSON que contiene un nombre y un mensaje, el servidor procesa la información gracias al middleware express.json() y la lee mediante req.body.
+
+La respuesta que devuelve el servidor es un objeto JSON que confirma la recepción exitosa de los datos:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
