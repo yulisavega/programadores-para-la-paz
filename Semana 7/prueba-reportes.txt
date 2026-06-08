@@ -1,0 +1,3 @@
+Al realizar una petición de tipo GET a la ruta http://localhost:3000/reportes cuando el servidor recién se enciende, la API responde con un array vacío []. 
+
+Esto ocurre porque los datos se están almacenando de forma temporal en la memoria volátil del servidor (dentro del arreglo llamado 'reportes'). Una vez que se envía un reporte mediante una petición POST, al consultar nuevamente la ruta GET, el servidor devuelve con éxito la lista con el formato JSON que incluye el id generado automáticamente, el tipo de incidencia y su descripción.

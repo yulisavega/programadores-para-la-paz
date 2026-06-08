@@ -1,0 +1,11 @@
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Fallo en el alumbrado público de la calle principal de la comuna, afectando la seguridad nocturna de los vecinos."
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación inadecuada de residuos sólidos y escombros en la zona verde comunitaria cercana al parque infantil."
+}
