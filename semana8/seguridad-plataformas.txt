@@ -1,0 +1,5 @@
+1. No exponer datos personales ni información sensible de los líderes comunitarios o usuarios en espacios públicos de la plataforma.
+2. Proteger las credenciales utilizando autenticación de doble factor (2FA) para los roles de administración.
+3. Usar conexiones seguras y cifradas mediante protocolos HTTPS para proteger las transferencias de datos en el territorio.
+4. Registrar de manera organizada los accesos y bitácoras de auditoría para identificar ingresos inusuales o sospechosos.
+5. Limitar el acceso a información sensible implementando un sistema de roles específicos (solo quien necesite el dato puede verlo).
