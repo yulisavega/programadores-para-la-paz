@@ -1,0 +1,12 @@
+DISEÑO DE INTERFAZ BÁSICA Y RESPONSABLE
+
+1. Vista de causas disponibles:
+La pantalla principal mostrará una cartelera digital o lista limpia con las causas comunitarias activas. Cada causa se presentará en una tarjeta visual que resume su título, sector, fecha y estado actual del proceso de veeduría.
+
+2. Formulario para crear una causa:
+Un panel sencillo exclusivo para usuarios autenticados con tres campos de texto: Título del problema, Descripción detallada y Selección del sector afectado. Incluye un botón claro de "Publicar Causa" que envía los datos al servidor de Node.js de forma segura.
+
+3. Botón para apoyar una causa y Contador de apoyos:
+Al pie de cada tarjeta de causa habrá un botón con el ícono de un pulgar arriba o un corazón etiquetado como "Apoyar Causa". Justo al lado, un contador dinámico mostrará de forma visible el número acumulado (Ej: "142 apoyos"), reflejando el respaldo comunitario en tiempo real. 
+
+Esta interfaz será intuitiva, clara y estrictamente pública en sus datos generales, garantizando que nunca se muestre información privada, nombres reales ni datos de contacto de quienes crearon o apoyaron las solicitudes.

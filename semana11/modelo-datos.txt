@@ -1,0 +1,25 @@
+MODELO DE DATOS BÁSICO PARA PLATAFORMA DE VEEDURÍA COMUNITARIA
+
+Entidad 1: Causa_Comunitaria
+Campos principales:
+- id (Numérico, Clave Primaria)
+- titulo (Texto corto)
+- descripcion (Texto largo)
+- sector_afectado (Texto: Ej. Vial, Salud, Seguridad)
+- fecha_creacion (Fecha)
+- estado (Texto: Ej. Activa, En Revisión, Solucionada)
+
+Propósito:
+Almacenar de manera estructurada las problemáticas, solicitudes o proyectos del territorio que requieren control social, sirviendo como el registro público que la comunidad va a fiscalizar.
+
+----------------------------------------------------------------------
+
+Entidad 2: Apoyo_Ciudadano
+Campos principales:
+- id (Numérico, Clave Primaria)
+- causa_id (Numérico, Clave Foránea apuntando a Causa_Comunitaria)
+- pseudonimo_usuario (Texto, para mantener el anonimato)
+- fecha_voto (Fecha y Hora)
+
+Propósito:
+Registrar de forma transparente el respaldo digital que recibe cada causa por parte de los vecinos, permitiendo priorizar los problemas más urgentes mediante un contador, sin almacenar identidades reales que vulneren la seguridad.
