@@ -1,0 +1,11 @@
+DISEÑO DEL FLUJO DE AUTOMATIZACIÓN COMUNITARIA (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa mediante un nodo "Webhook" o un activador de "Formulario" en n8n cada vez que un ciudadano envía con éxito un nuevo reporte de incidencia a través de la plataforma comunitaria.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviará un mensaje genérico al canal del equipo de veeduría con la siguiente estructura:
+"⚠️ ¡Atención Equipo! Se ha registrado un nuevo reporte comunitario en el sistema. ID del caso: #1024. Sector: Infraestructura Vial. Por favor, un coordinador disponible ingrese al panel interno para revisar la evidencia y asignar los roles de verificación."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por estrictas razones de seguridad y privacidad, nunca se enviarán: nombres completos de los denunciantes, números de cédula, números de teléfono personales, direcciones exactas de domicilio de las personas, ni archivos adjuntos que muestren rostros o datos personales explícitos.

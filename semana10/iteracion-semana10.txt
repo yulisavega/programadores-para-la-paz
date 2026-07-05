@@ -1,0 +1,11 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+Haría primero las tareas 1 y 2: El registro de la incidencia por parte del ciudadano y la alerta automática en Telegram para el coordinador.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el núcleo de la solución (el Producto Mínimo Viable). Sin la captura del reporte no existe información que gestionar, y sin la alerta en Telegram el equipo de veeduría no se entera a tiempo para reaccionar. Juntas activan el flujo de participación comunitaria de inmediato.
+
+3. Definición de "Terminado" (Definition of Done - DoD):
+Para que una tarea se considere completamente terminada en nuestro equipo, debe cumplir estrictamente con estos 3 criterios:
+- Funciona correctamente: La funcionalidad cumple su objetivo técnico sin romperse en el entorno local ni de pruebas.
+- Validada sin datos sensibles: Se comprobó que el flujo no procesa, expone ni almacena información personal o confidencial de los usuarios.
+- Registrada en Git: El código o la configuración está guardada con un commit descriptivo y subida al repositorio remoto de GitHub.

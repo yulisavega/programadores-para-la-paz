@@ -1,0 +1,10 @@
+BACKLOG DE LA SOLUCIÓN COMUNITARIA DE VEEDURÍA CITADINA
+
+[ALTA PRIORIDAD]
+1. Como ciudadano afectado, quiero registrar una incidencia o reporte de daño en la infraestructura pública para dejar evidencia del caso con una descripción.
+
+[MEDIA PRIORIDAD]
+2. Como coordinador de la veeduría, quiero recibir una alerta automática en Telegram cada vez que se cree un nuevo reporte para revisarlo y asignarlo rápidamente.
+
+[BAJA PRIORIDAD]
+3. Como miembro del equipo de seguimiento, quiero consultar la lista histórica de reportes filtrados por estado para verificar cuáles ya fueron solucionados por la alcaldía.
