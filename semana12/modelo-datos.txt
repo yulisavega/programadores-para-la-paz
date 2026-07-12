@@ -1,0 +1,15 @@
+Modelo de Datos Simple - Plataforma de Gestión Comunitaria
+
+Entidad 1: Causa
+- id: Identificador único de la causa (clave primaria).
+- titulo: Nombre corto y descriptivo de la iniciativa ciudadana.
+- descripcion: Detalle de la problemática, necesidades o argumentos de la solicitud.
+- fecha: Día y hora en la que se registró la propuesta en el sistema.
+Propósito: Esta entidad sirve para centralizar y almacenar la información de las diferentes necesidades o propuestas levantadas por la comunidad, permitiendo que queden registradas de manera estructurada en el servidor.
+
+Entidad 2: Apoyo
+- id: Identificador único de cada respaldo individual (clave primaria).
+- causa_id: Relación directa con la causa específica que se está apoyando (clave foránea).
+- nombre: Nombre del participante o indicador anónimo del apoyo ciudadano.
+- fecha: Momento exacto en el que el usuario registró su voto o firma digital.
+Propósito: Esta entidad sirve para auditar, respaldar y contabilizar de forma cuantitativa el volumen de adhesiones que recibe una causa comunitaria, permitiendo medir el impacto social y el respaldo colectivo antes de formalizar la petición.

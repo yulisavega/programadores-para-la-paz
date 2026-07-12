@@ -1,0 +1,12 @@
+Diseño de Automatización Responsable
+
+Plataforma utilizada: Bot de Notificaciones en Telegram
+
+- Evento que activa la automatización:
+  Un nuevo ciudadano registra su apoyo digital haciendo clic en el botón de respaldo de una causa activa en la plataforma.
+
+- Mensaje automatizado que se envía al canal comunitario:
+  "📢 ¡Nuevo respaldo registrado! La causa comunitaria acaba de sumar un apoyo más. Sigamos organizándonos para transformar nuestro territorio. ¡Consulta los avances en la plataforma!"
+
+- Información que NO debe enviarse por motivos de seguridad:
+  No se deben enviar bajo ninguna circunstancia nombres completos, números de cédula o documentos de identidad, números telefónicos, direcciones residenciales exactas, correos electrónicos ni comentarios sensibles de carácter personal. Esto con el fin de proteger la integridad física y el derecho a la privacidad (Habeas Data) de los líderes y participantes del proceso social.

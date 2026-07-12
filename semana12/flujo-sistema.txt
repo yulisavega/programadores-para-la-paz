@@ -1,0 +1,8 @@
+Flujo del Sistema: "Petición en 3 Clics"
+
+Pasos del funcionamiento de la plataforma:
+1. Un líder comunitario o ciudadano ingresa a la plataforma y crea una causa colectiva detallando una problemática territorial.
+2. El sistema procesa la solicitud y registra la nueva causa con un identificador único en la base de datos de manera inmediata.
+3. Otros miembros de la comunidad ingresan al enlace de la causa y registran su apoyo digital con un solo clic.
+4. El backend del sistema contabiliza y actualiza en tiempo real el contador global de apoyos, manteniendo la transparencia del proceso.
+5. Una vez alcanzado el objetivo o cerrada la convocatoria, el sistema compila los datos y genera automáticamente un documento formal en formato PDF (petición comunitaria) listo para ser descargado y presentado ante las autoridades competentes.
